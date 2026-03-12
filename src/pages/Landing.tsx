@@ -62,7 +62,6 @@ const Landing = () => {
             </div>
           </motion.div>
           <motion.h1
-            {...fadeUp}
             transition={{ ...fadeUp.transition, delay: 0.05 }}
             className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight mb-6"
             style={{ fontSize: "clamp(2.5rem, 5vw + 1rem, 4.5rem)" }}
