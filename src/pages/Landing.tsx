@@ -76,7 +76,7 @@ const Landing = () => {
           >
             Turn any YouTube video into your personal study guide. Generate summaries, create quizzes, and capture insights with timestamped notes.
           </motion.p>
-          <motion.div {...fadeUp} transition={{ ...fadeUp.transition, delay: 0.15 }}>
+          <motion.div {...fadeUp} transition={{ duration: 0.5, ease, delay: 0.15 }}>
             <Link
               to="/signup"
               className="inline-flex items-center gap-2 h-12 px-8 rounded-xl gradient-primary text-primary-foreground font-medium text-base transition-transform hover:scale-[1.03] active:scale-[0.97] shadow-lg shadow-primary/20"
