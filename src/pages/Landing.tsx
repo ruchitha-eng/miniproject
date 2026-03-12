@@ -70,8 +70,7 @@ const Landing = () => {
             <span className="text-gradient">not harder.</span>
           </motion.h1>
           <motion.p
-            {...fadeUp}
-            transition={{ ...fadeUp.transition, delay: 0.1 }}
+            transition={{ duration: 0.5, ease, delay: 0.1 }}
             className="text-lg sm:text-xl text-muted-foreground max-w-2xl mx-auto mb-10"
             style={{ textWrap: "pretty" as any }}
           >
