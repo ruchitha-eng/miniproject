@@ -91,7 +91,7 @@ const Dashboard = () => {
               key={video.id}
               initial={{ opacity: 0, y: 15 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: i * 0.08, duration: 0.5, ease: [0.33, 1, 0.68, 1] }}
+              transition={{ delay: i * 0.08, duration: 0.5, ease }}
               className="bg-card rounded-2xl shadow-card hover:shadow-card-hover hover:-translate-y-0.5 transition-all duration-200 overflow-hidden"
             >
               <div className="aspect-video bg-muted relative">
