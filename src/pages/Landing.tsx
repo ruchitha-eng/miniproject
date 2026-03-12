@@ -15,11 +15,12 @@ import {
   Github,
 } from "lucide-react";
 
+const ease = [0.33, 1, 0.68, 1] as const;
 const fadeUp = {
   initial: { opacity: 0, y: 15 },
   whileInView: { opacity: 1, y: 0 },
   viewport: { once: true },
-  transition: { duration: 0.5, ease: [0.33, 1, 0.68, 1] },
+  transition: { duration: 0.5, ease },
 };
 
 const stagger = {
